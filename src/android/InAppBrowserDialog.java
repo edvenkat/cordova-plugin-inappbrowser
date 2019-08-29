@@ -42,6 +42,7 @@ public class InAppBrowserDialog extends Dialog {
     }
 
     public void onBackPressed () {
+        /*
         if (this.inAppBrowser == null) {
             this.dismiss();
         } else {
@@ -53,5 +54,6 @@ public class InAppBrowserDialog extends Dialog {
                 this.inAppBrowser.closeDialog();
             }
         }
+        */
     }
 }
